@@ -1,0 +1,118 @@
+/*Start FrameWork and global rules*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Great Vibes", cursive;
+}
+
+.toUpperCase {
+  text-transform: uppercase;
+}
+
+/*End FrameWork*/
+/************************************************************/
+/*Start landingPage Section*/
+.landingPage {
+  background: url("1.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  color: #fab964;
+}
+
+.landingPage .navBar {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  z-index: 333333;
+}
+
+.landingPage .navBar ul li {
+  font-size: 30px;
+  float: left;
+  cursor: pointer;
+  z-index: 2222;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+.landingPage .navBar ul li:first-child {
+  font-size: 30px;
+}
+
+.landingPage .navBar ul li:not(:first-child):hover {
+  color: #f05a28;
+}
+
+.landingPage svg {
+  float: right;
+  cursor: pointer;
+  position: absolute;
+  right: 40px;
+}
+
+.landingPage .sideBar {
+  width: 100%;
+  position: relative;
+  top: -530px;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+}
+
+.landingPage .sideBar ul {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fab964;
+  width: 100%;
+  position: absolute;
+}
+
+.landingPage .sideBar ul li {
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  font-size: 25px;
+}
+
+.landingPage .sideBar ul li:first-child {
+  padding-top: 20px;
+}
+
+.landingPage .sideBar ul li:last-child {
+  padding-bottom: 20px;
+}
+
+.landingPage .sideBar ul li:hover {
+  color: #f05a28;
+}
+
+.landingPage span {
+  font-size: 80px;
+  position: absolute;
+  top: 30vh;
+  left: 5vh;
+}
+
+@media (max-width: 767px) {
+  .landingPage span {
+    font-size: 50px;
+    top: 40vh;
+    position: absolute;
+  }
+}
+
+/*End landingPage Section*/
+/************************************************************/
+/*Start FrameWork*/
+/*End FrameWork*/
+/************************************************************/
+/*Start FrameWork*/
+/*End FrameWork*/
+/************************************************************/
+/*Start FrameWork*/
+/*End FrameWork*/
+/*# sourceMappingURL=test.css.map */
