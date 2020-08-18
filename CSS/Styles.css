@@ -13,7 +13,7 @@
 /************************************************************/
 /*Start landingPage Section*/
 .landingPage {
-  background: url("../Images/LandingPage.jpg") no-repeat center center;
+  background: url("1.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
   color: #fab964;
@@ -115,4 +115,4 @@
 /************************************************************/
 /*Start FrameWork*/
 /*End FrameWork*/
-/*# sourceMappingURL=Styles.css.map */
+/*# sourceMappingURL=test.css.map */
