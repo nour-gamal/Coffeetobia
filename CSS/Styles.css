@@ -1,7 +1,7 @@
 /*Start FrameWork and global rules*/
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Great Vibes", cursive;
 }
 
@@ -13,7 +13,7 @@
 /************************************************************/
 /*Start landingPage Section*/
 .landingPage {
-  background: url("1.jpg") no-repeat center center;
+  background: url("../Images/LandingPage.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
   color: #fab964;
