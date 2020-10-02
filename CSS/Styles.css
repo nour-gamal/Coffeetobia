@@ -1,7 +1,7 @@
 /*Start FrameWork and global rules*/
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Great Vibes", cursive;
 }
 
@@ -115,4 +115,4 @@
 /************************************************************/
 /*Start FrameWork*/
 /*End FrameWork*/
-/*# sourceMappingURL=test.css.map */
+/*# sourceMappingURL=Styles.css.map */
